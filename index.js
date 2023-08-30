@@ -3,6 +3,10 @@ let guestPoints = 0
 let homeScore = document.getElementById("home-score")
 let guestScore = document.getElementById("guest-score")
 
+// function incrementHomeScore(numPoints) {
+//     homePoints += numPoints;
+//     homeScore.textContent = homePoints;
+// }
 
 function addOneToHome(){
     homePoints += 1
